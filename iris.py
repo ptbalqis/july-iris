@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-[theme]
-base="dark"
-primaryColor="purple"
-
-font="helvetica"
-
 st.write("""
 # Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
